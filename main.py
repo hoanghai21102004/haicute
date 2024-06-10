@@ -12,7 +12,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import random
 import string
-
 async def send_photo_from_url(update: Update, photo_url: str) -> None:
     await update.message.reply_photo(photo=photo_url)
 
